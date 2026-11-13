@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MoleculeAgent &mdash; Aditya Motwani</title>
+<style>
+  :root{ --red:#C41230; --ink:#1A1A1A; --mute:#5A5C5E; --rule:#E2E4E6; }
+  *{ box-sizing:border-box; margin:0; padding:0; }
+  body{
+    font-family:"Source Sans Pro","Open Sans","Segoe UI",Helvetica,Arial,sans-serif;
+    color:var(--ink); line-height:1.6; background:#fff;
+    max-width:760px; margin:0 auto; padding:56px 24px 96px;
+  }
+  h1{ font-family:"Source Serif Pro",Georgia,"Times New Roman",serif;
+      font-size:2.1rem; line-height:1.25; font-weight:700; letter-spacing:-.3px; }
+  .authors{ margin-top:18px; font-size:1.05rem; font-weight:600; }
+  .me{ color:var(--red); }
+  .affil{ margin-top:6px; color:var(--mute); font-size:.95rem; }
+  .venue{ margin-top:14px; font-size:.95rem; color:var(--mute); }
+  hr{ border:0; border-top:1px solid var(--rule); margin:34px 0; }
+  h2{ font-size:1.0rem; text-transform:uppercase; letter-spacing:1.2px;
+      color:var(--red); font-weight:700; margin-bottom:12px; }
+  p + p{ margin-top:14px; }
+  ul{ list-style:none; }
+  li{ padding:9px 0; border-bottom:1px solid var(--rule); }
+  li:last-child{ border-bottom:0; }
+  a{ color:var(--red); text-decoration:none; border-bottom:1px solid rgba(196,18,48,.35); }
+  a:hover{ border-bottom-color:var(--red); }
+  .label{ display:inline-block; min-width:96px; color:var(--mute); font-size:.9rem; }
+  footer{ margin-top:48px; color:var(--mute); font-size:.85rem; }
+</style>
+</head>
+<body>
+
+  <h1>MoleculeAgent: From Biological Goals<br>to Evaluated Molecular Designs</h1>
+
+  <p class="authors">
+    <span class="me">Aditya Motwani</span> &nbsp;&middot;&nbsp; Yeshwanth Govindarajan
+    &nbsp;&middot;&nbsp; Haotong Xin &nbsp;&middot;&nbsp; Lei Li
+  </p>
+  <p class="affil">
+    Language Technologies Institute, Kenneth C. Griffin School of Computer Science,
+    Carnegie Mellon University
+  </p>
+  <p class="venue"><!-- EDIT: venue and date -->Presented at the MLDD Symposium, Broad Institute.</p>
+
+  <hr>
+
+  <h2>Overview</h2>
+  <p>
+    <!-- EDIT: one paragraph, no more. Keep it to what the poster already says. -->
+    Given a biological objective in natural language, MoleculeAgent plans a design
+    campaign, runs the design and evaluation tools, simulates the candidates it keeps,
+    and records the evidence behind every decision. A supervisor agent routes work to
+    specialised planning, design, evaluation and simulation subagents, which reach their
+    tools through MCP servers; a recovery controller catches failed steps and replans
+    rather than restarting the campaign.
+  </p>
+
+  <hr>
+
+  <h2>Poster</h2>
+  <ul>
+    <!-- EDIT: upload the PDF to this repo, then point href at it.
+         Remove this whole section if the poster should not circulate yet. -->
+    <li><span class="label">PDF</span>
+      <a href="MoleculeAgent_poster.pdf">MoleculeAgent poster (MLDD 2026)</a></li>
+  </ul>
+
+  <hr>
+
+  <h2>Contact</h2>
+  <ul>
+    <li><span class="label">Email</span>
+      <a href="mailto:amotwani@cs.cmu.edu">amotwani@cs.cmu.edu</a></li>
+    <li><span class="label">Advisor</span>
+      <a href="https://lileicc.github.io/"> Prof. Lei Li</a></li>
+    <li><span class="label">Lab</span>
+      <!-- EDIT: confirm the Li Lab URL -->
+      <a href="https://leililab.github.io/">Li Lab, LTI, Carnegie Mellon University</a></li>
+    <li><span class="label">LinkedIn</span>
+      <!-- EDIT: your profile URL -->
+      <a href="https://www.linkedin.com/in/">linkedin.com/in/adityamotwani4/&hellip;</a></li>
+    <li><span class="label">GitHub</span>
+      <a href="https://github.com/adityamotwani">github.com/adityamotwani</a></li>
+  </ul>
+
+  <footer>
+    <!-- Add preprint and code links here once they are public. The URL stays the same,
+         so every QR already printed will pick them up. -->
+    Last updated <!-- EDIT -->November 2026.
+  </footer>
+
+</body>
+</html>
